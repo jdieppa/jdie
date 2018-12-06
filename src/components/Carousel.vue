@@ -77,6 +77,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.carousel {
+  margin: 8% 0;
+}
+.carousel-3d-slide{
+  border-radius: 10px;
+  border:none;
+}
 .carousel .description {
   position:absolute;
   bottom:0;
@@ -85,6 +92,6 @@ export default {
   color:#fff;
   text-align:center;
   background:rgba(0,0,0,0.7);
-  padding:10px;
+  padding:1rem;
 }
 </style>
