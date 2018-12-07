@@ -72,8 +72,8 @@ header h1 {
 #innerContainer h2 {
   font: bold 1.8rem 'PT Sans Narrow', sans-serif;
   text-shadow: #fff 1px 1px 0px;
-  padding-left:10px;
 }
+#innerContainer h1 { padding-left:10px; }
 
 footer {
   color:aliceblue;
