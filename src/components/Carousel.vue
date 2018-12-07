@@ -1,6 +1,7 @@
 <template>
   <section class="carousel">
     <carousel-3d
+      dir="ltr"
       :height="300"
       :controls-visible="true"
       :controls-prev-html="'&#10092;'"
