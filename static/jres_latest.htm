@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jarrod Dieppa's Resume</title>
+
+    <style type="text/css">
+
+        :root {
+          --main-bg-color: #333;
+          --sub-bg-color: #eee;
+          /* --mid-gradient-color: #999; */
+          --mid-gradient-color: #4f5a80;
+        } 
+
+        html { font-size:100%; }
+        body {
+          margin: 0px;
+          font:.85rem arial,sans-serif;
+          background-color:var(--main-bg-color);
+          padding-bottom: 25px;
+        }
+        h1 {
+          font-size: 1.5rem;
+          margin-bottom: 5px;
+          color:#fff;
+        }
+        h2 {
+          font-size: 1.2rem;
+          margin-bottom: 5px;
+        }
+        h2 a { color: #333; }
+        h3 {margin-bottom:0;}
+        a:hover, a:focus, a:active { text-decoration: none; }
+
+        header, .mcont {  margin: 0 10%;  }
+        header, section { padding: 1rem 3%; }
+        header a  { color: #eee; }
+
+        .mcont {
+            background-color: var(--sub-bg-color);
+            border-radius: 20px;
+        }
+
+        .mcont > section:not(:last-child) {
+          border-bottom:30px solid #333;
+          border-image-source:linear-gradient(to right, var(--main-bg-color) 15%, var(--mid-gradient-color) 45%, var(--mid-gradient-color) 55%, var(--main-bg-color) 85%);
+          border-image-slice: 1;
+        }
+
+        p { margin: 5px 0 10px 2%; }
+        .experience p { font-weight:bold; }
+        ul {margin: 0 0 10px 2%;}
+
+        .wordVersion {float:right;}
+        .wordVersion span { font-size:.8rem;display:block; color:#666; }
+
+        footer { font-size:.9rem; text-align:center; margin-top: 15px; }
+        footer, footer a { color:#ddd; }
+        footer a {text-decoration:none; }
+        footer p { margin:0; }
+
+        .projects li { margin: 8px 0; }
+
+        @media only screen and (min-width: 1024px) {
+          section { 
+            display:flex;
+            flex-direction: row;
+            align-items: baseline;
+          }
+          section > h2 {
+            flex: 0 0 5em;
+          }
+          section > div { 
+            flex: 1;
+          }
+
+          .summary ul {margin-left: 0;}
+        }
+
+        @media print {
+          a::after{
+            content: " (" attr(href) ")";
+          }
+          body, .mcont { background-color:#fff; }
+          h1, h2, h2 a  { color:#333; text-decoration:none; }
+          .wordVersion {display:none;}
+          header, .mcont { margin: 0 5%; }
+          .mcont > section:not(:last-child) { border-width: 1px; border-image-source:none; }
+        }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Jarrod Dieppa</h1>
+    </header>
+
+    <div class="mcont" role="main">
+
+      <section class="summary">
+        <h2>Summary</h2>
+        <div id="summary">
+          <ul>
+            <li>20 years hand-coding HTML, CSS, JavaScript and general front-end web work</li>
+            <li>8 years leading front-end web related projects</li>
+            <li>Intermediate experience developing and maintaining web applications in various server side programming languages such as JSP, PHP and ASP.NET</li>
+            <li>Experienced developing sites to comply with Section 508 and WCAG</li>
+            <li>Experienced utilizing graphic software such as Photoshop or GIMP</li>
+            <li>Excellent multitasking skills and experienced working in fast-paced environments collaborating with diverse/creative team members</li>
+            <li>Follows processes and procedures; maintains attention to detail and follows through to learn new technologies and tasks for the positive growth of the site/project</li>
+            <li>Extremely strong customer service skills as well as excellent communication and interpersonal skills</li>
+            <li>Works well on individual and team assignments and very well with technically knowledgeable persons and non-technical persons</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <div id="skills">
+          <p><strong>Day to day skills:</strong> X/HTML, HTML5, CSS, CSS3, JavaScript, ESNext, Section 508, WCAG, Web Accessibility, Cross-Browser Compatibility, Mobile first and responsive design/dev</p>
+          <p><strong>Now and then:</strong> Angular, React, node.js, Java/JSP, PHP, Photoshop, SQL, Oracle, SQL Server, MySQL, Linux (CentOS, Ubuntu)</p>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2>Work History</h2>
+        <div id="experience">
+          <p> September 2015 - Present<br>
+            <a href="https://vmdcorp.com/">VMD Corp</a><br>
+            Technical Project Manager</p>
+          <ul>
+            <li>Coordinated weekly agendas and team/client meetings</li>
+            <li>Created/Delivered weekly and monthly status reports to the client</li>
+            <li>Planned and executed various new efforts as requested by the client</li>
+            <li>Prepared monthly program status and financial reports for internal executives and the client</li>
+            <li>Continued Web Developer responsibilities as described in the previous position</li>
+          </ul>
+          <p> September 2010 - August 2015<br>
+            VMD Systems Integrators, Inc. now <a href="https://vmdcorp.com/">VMD Corp</a><br>
+            Web Developer </p>
+          <ul>
+            <li>Developed HTML/CSS/JavaScript for various projects using Sublime Text, VSCode, Adobe Creative Suite/Cloud, jQuery, jQueryUI, ASP.NET, JSP</li>
+            <li>Developed JavaScript bookmarklets to validate document format, identify specific errors, and more easily navigate the client environment</li>
+            <li>Ensured code was Section 508 and standards compliant where possible</li>
+            <li>Ensured consistent page appearance/behavior across multiple browsers (IE6+, FF, Chrome, Safari) in desktop, mobile, and nojs views</li>
+            <li>Trained and supervised multiple team members for ongoing reformatting/quality control projects</li>
+          </ul>
+          <p> March 2010 - September 2010<br>
+            <a href="http://www.apexsystemsinc.com/">Apex Systems, Inc.</a><br>
+            (Contract-to-hire with VMD Systems and the <a href="http://www.nsf.gov/">National Science Foundation</a>)<br>
+            Web Developer </p>
+          <ul>
+            <li>Developed HTML/CSS pages for various projects using Adobe Photoshop/Dreamweaver CS4</li>
+            <li>Used jQuery for web service calls, file tree, tabs, modal dialog, and autocomplete functionality</li>
+            <li>Ensured all code was Section 508 and standards compliant where possible</li>
+            <li>Ensured consistent page appearance/behavior across <a href="https://yuiblog.com/blog/2008/02/19/gbs-update-20080219/#chart">Yahoo's A-grade browsers</a></li>
+            <li>After contract, was hired by VMD</li>
+          </ul>
+          <p> October 2009 - March 2010<br>
+            <a href="http://www.naipersonnel.com/">National Associates, Inc.</a><br>
+            (Six Month Contract with the <a href="https://www.agu.org/">American Geophysical Union</a>)<br>
+            Web Developer </p>
+          <ul>
+            <li>Assisted in website redesign using HTML/CSS/JavaScript/jQuery/PHP.</li>
+            <li>Coordinated with project manager to determine what functionality could be implemented within the desired timeframe.</li>
+            <li>Used Photoshop CS3 to cut/resize/modify graphics files for the site as needed</li>
+            <li>Ensured all code was Section 508 and standards compliant where possible</li>
+            <li>Ensured consistent page appearance/behavior across <a href="https://yuiblog.com/blog/2008/02/19/gbs-update-20080219/#chart">Yahoo's A-grade browsers</a></li>
+            <li>Implemented a weekly auto executed task to check site links (using <a href="https://arthurdejong.org/webcheck/">Webcheck</a>) and generate a detailed HTML report during off-peak hours.</li>
+          </ul>
+          <p> March 2006 - November 2008<br>
+            <a href="https://www.aol.com/">AOL LLC</a><br>
+            Web Developer
+          </p>
+          <ul>
+            <li>Performed maintenance and created new flows on the AOL ReGolution registration platform (Java/Struts)</li>
+            <li>Updated/modernized the main registration flow. Added JavaScript form validation onBlur and ajax Screen Name availability check.</li>
+            <li>Used Weblogic Workshop/Server along with CVS/Ant for ReGolution flow development, QA and deployment</li>
+            <li>Set up Weblogic development environment on MacOSX and Debian Linux. Documented the procedure for future developers who prefer Mac/Linux.</li>
+            <li>Coordinated with internal AOL stakeholders to clarify/modify requirements and ensure development efforts were on target</li>
+            <li>Coordinated with QA team to deploy in QA environment, schedule testing and resolve bugs before deployment in production environment.</li>
+            <li>Performed maintenance for various registration flows on the AOL T4 registration platform (Tcl/adp pages)</li>
+            <li>Developed various user login landing pages (XHTML/CSS/JavaScript) based on PSD designs</li>
+            <li>Assisted developers in CSS/XHTML/JavaScript development and cross-browser bugs whose main focus was Java (ReGolution) or Tcl (T4).</li>
+            <li>Ensured all code was Section 508 and standards compliant when possible</li>
+            <li>Ensured consistent page appearance/behavior across popular browsers</li>
+            <li>Created/modified simple graphics as needed for various pages using Photoshop CS2</li>
+            <li>Used XSLT for an internal registration statistics reporting tool.</li>
+          </ul>
+          <p> September 2005 - March 2006<br>
+            <a href="https://www.starpoint.com">Starpoint Solutions</a><br>
+            Web Developer<br>
+            (Contractor to AOL through <a href="https://itstaffing.com/">Computer Merchants</a> and Computer Sciences Corporation now <a href="https://www.dxc.technology/">DXC Technology</a>)
+          </p>
+          <ul>
+            <li>Developed HTML, CSS, and Tcl/adp pages for the T4 AOL user registration process</li>
+            <li>Ensured all code was Section 508 and standards compliant when possible</li>
+            <li>After contract, was hired by AOL</li>
+          </ul>
+          <p> March 2000 - September 2005<br>
+            Michael Baker Corporation now <a href="https://mbakerintl.com/">Michael Baker International LLC</a><br>
+            Web Developer
+          </p>
+          <ul>
+            <li>Assisted in developing and maintaining internal websites and client websites: used HTML, CSS, JavaScript, ASP Classic, JSP, Java Servlets, PHP, Dreamweaver</li>
+            <li>Ensured all code was compliant with Section 508 and W3C’s Web Accessibility Initiative (WAI)</li>
+            <li>Learned some basic database administration skills with Oracle</li>
+            <li>Maintained Conference Room Reservation application with Java Servlets, JSP, and MySQL</li>
+            <li>Merged Access databases with Oracle database for FEMA flood study status application and developed an automated system to run twice a week.</li>
+            <li>Administered Windows NT and 2003 Web Servers using IIS, Apache, JRun, Tomcat, CVS, and SVN.</li>
+            <li>Conducted manual quality control interface user testing on custom built applications</li>
+            <li>Managed and administered 16 Listmanager Electronic mailing lists for internal and external clients</li>
+          </ul>
+        </div>
+      </section>
+      
+      <section class="education">
+        <h2>Education</h2>
+        <div id="education">
+          <ul>
+            <li>
+              <h3>Capella University</h3>
+              Bachelor of Science in Information Technology, minor in System Development: Web Application
+            </li>
+            <li>
+              <h3>Certifications</h3>
+              Nov 2018 - <a href="https://academy.microsoft.com/en-us/certificates/efdd3021-a1a0-425a-a304-f69adb907dd0/">Microsoft Professional Program - Front-End Web Development</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>Projects</h2>
+        <div id="projects">
+          <ul>
+            <li><strong>Adaptive Responsive <a href="https://nsf.gov/">NSF.gov</a></strong> (2017)<br>
+              Assisted NSF team with planning and execution of effort to identify/resolve potential issues and apply adaptive responsive bootstrap templates site-wide.</li>
+            <li><strong>NSF - Dreamweaver Template Consolidation</strong> (2015)<br>
+              Identified and consolidated 150+ Dreamweaver templates into 4 JSP and CFM templates using Dreamweaver template expression language, template properties, and JSP/CFM include files.</li>
+            <li><strong>NSF Rotator Positions</strong> (2012)<br>
+              Developed HTML/CSS/JS based on provided PSD composites. Used JSP/XML as the data source.</li>
+            <li><strong>VMD-MT Security Website</strong> (2012)<br>
+              Designed and developed website using html5/css3 in less than two weeks alongside normal tasks. Used Adobe Creative Suite CS5.</li>
+            <li><strong>VMD - Website Redesign</strong> (2011)<br>
+              Assisted in developing html/css/javascript for the VMD Systems website redesign. Used Adobe Creative Suite CS4 (Dreamweaver, Photoshop, Illustrator) along with jQuery.</li>
+            <li><strong>AGU - Website Redesign</strong> (2010)<br>
+              Assisted in developing html/css/javascript for the AGU website redesign. Used Photoshop CS3 to resize/modify graphics as needed. Used jQuery for various slideshow, tabs, scrolling effects. Coded to XHTML 1.0 standards and compliant with the Section 508 guidelines when possible.</li>
+            <li><a href="http://www.noobfly.com/work/myownagent/"
+                target="_blank">myOwnAgent - psd to html</a> (2009)<br>
+              Converted psd design to valid html/css.</li>
+            <li><strong>AOL - Regolution User Registration</strong> (2008)<br>
+              Assisted in the development of Java/html/css/javascript pages for the AOL ReGolution registration platform. Coded to XHTML 1.0 standards and compliant with the Section 508 guidelines when possible.</li>
+            <li><strong>AOL - T4 User Registration</strong> (2008)<br>
+              Assisted in the development of HTML/CSS/ADP pages for T4 user registration. Coded to XHTML 1.0 standards and compliant with the Section 508 guidelines when possible.</li>
+            <li><strong>FEMA - Flood Hazard Mapping - Study Status Application</strong> (2005)<br>
+              Developed system using ASP and Oracle (migrated from Access), for the public to check on the status of flood map change requests submitted to FEMA for review and for the mapping contractor to update the status data automatically twice a week.</li>
+            <li><strong>FEMA - Flood Hazard Mapping (FHM) Website</strong> (2005)<br>
+              Assisted in the development and maintenance of over 650 static web pages on the FHM website. Coded to HTML 4.01 standards and compliant with the Section 508 guidelines.</li>
+          </ul>
+          <p>Back to <strong><a href="https://jdie.org/">Summary of Projects</a></strong></p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>Updated 4/20/2020</p>
+    </footer>
+
+  </body>
+</html>
