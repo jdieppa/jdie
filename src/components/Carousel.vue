@@ -1,7 +1,7 @@
 <template>
   <section class="carousel">
     <carousel-3d
-      dir="ltr"
+      dir="rtl"
       :height="300"
       :controls-visible="true"
       :controls-prev-html="'&#10092;'"
@@ -11,12 +11,13 @@
       :clickable="false"
       @before-slide-change="onBeforeSlideChange"
     >
-      <!-- <slide v-for="(slide, i) in slides" :key='i' :index="i"> -->
       <slide v-for="(p, i) in projects" :key="i" :index="i">
         <!-- <a v-if="p.link" v-bind:href="p.link" target="_blank"><img v-bind:src="p.image"></a>
-        <img v-else v-bind:src="p.image">-->
+        <img v-else v-bind:src="p.image"> -->
         <img v-bind:src="p.image">
-        <div class="name" v-html="p.name"/>
+        <!-- <div class="name" v-html="p.name"/> -->
+        <div v-if="p.link" class="name"><a v-bind:href="p.link" target="_blank">{{p.name}}</a></div>
+        <div v-else class="name" v-html="p.name"/>
       </slide>
     </carousel-3d>
 
@@ -110,6 +111,10 @@ export default {
   text-align: center;
   background: rgba(0, 0, 0, 0.7);
   padding: 1rem;
+}
+.carousel .name a {
+  color:#3399ff;
+  color:#74baff;
 }
 
 .carousel .description {
