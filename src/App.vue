@@ -19,11 +19,11 @@ export default {
 </script>
 
 <style>
-@import url("http://fonts.googleapis.com/css?family=Nova+Square:regular");
-@import url("http://fonts.googleapis.com/css?family=News+Cycle:regular");
-@import url("http://fonts.googleapis.com/css?family=PT+Sans+Narrow");
-@import url("http://fonts.googleapis.com/css?family=PT+Sans");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("//fonts.googleapis.com/css?family=Nova+Square:regular");
+@import url("//fonts.googleapis.com/css?family=News+Cycle:regular");
+@import url("//fonts.googleapis.com/css?family=PT+Sans+Narrow");
+@import url("//fonts.googleapis.com/css?family=PT+Sans");
+@import url("//fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
 
 html { font:100% arial,sans-serif; }
 body {
