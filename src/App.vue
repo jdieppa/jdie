@@ -39,9 +39,10 @@ body {
     }
 a img { border:1px solid #aaa; }
 
-a:link {color: #0066a4; text-decoration:none;}
-a:visited { color: #004b8d; text-decoration:none; }
-a:hover {text-decoration:underline;}
+a:link {color: #0066a4;}
+a:visited { color: #004b8d; }
+a:hover,
+a:focus {text-decoration:none;}
 a:active {color: red;}
 
 .clear { clear:both; }
