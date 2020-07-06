@@ -42,7 +42,8 @@ export default {
       {
         name: 'NSF Rotators Microsite',
         image: '/static/img/projects/rotators.png',
-        link: 'https://www.nsf.gov/careers/rotator/microsite/',
+        // link: 'https://www.nsf.gov/careers/rotator/microsite/',
+        link: '',
         description:
           '<p>NSF requested a microsite to showcase their rotator positions with testimonials and video faqs. I was provided with PSD composites, partial content and the video urls. The site uses an xml back end for the faq and testimonial data which is parsed in Java.</p><p>I wrote everything there except for the content, from the random images on the home page to the transition/display of the testimonials and video faqs.</p>'
       },
@@ -73,14 +74,14 @@ export default {
         link:
           'https://www.fema.gov/national-flood-insurance-program-flood-hazard-mapping',
         description:
-          '<p>At its peak, in 2002-2003, the Flood Hazard Mapping subsection of the fema.gov website had over 600 static html pages.This was the first large website I worked on. I was part of a 4 person, multi-contractor team responsible for all updates and maintenance. Most of our work involved content updates, routine site-wide link checking and weekly file preperation and deliverables to the client so that the files could be uploaded without issue. I also wrote a <a href="http://www.noobfly.com/work/baker/js_acrdt.js">small script</a> to detect the version of the adobe (acrobat) reader plugin. If it found an old version you would get a popup warning when you click on PDF links that the PDF may not display properly. I thought it was pretty slick for 2002.</p>'
+          '<p>At its peak, in 2002-2003, the Flood Hazard Mapping subsection of the fema.gov website had over 600 static html pages.This was the first large website I worked on. I was part of a 4 person, multi-contractor team responsible for all updates and maintenance. Most of our work involved content updates, routine site-wide link checking and weekly file preperation and deliverables to the client so that the files could be uploaded without issue. I also wrote a <a href="/static/baker/js_acrdt.js">small script</a> to detect the version of the adobe (acrobat) reader plugin. If it found an old version you would get a popup warning when you click on PDF links that the PDF may not display properly. I thought it was pretty slick for 2002.</p>'
       },
       {
         name: 'My Own Agent',
         image: '/static/img/projects/myownagent.jpg',
-        link: 'http://www.noobfly.com/work/myownagent/',
+        link: '/static/myownagent/index.htm',
         description:
-          '<p>A small psd to html project I worked on as a contractor.</p>'
+          '<p>A small psd to html project I worked on as a contractor in 2009.</p>'
       }
     ]
     const currentProject = projects[0]

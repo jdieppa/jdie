@@ -1,0 +1,120 @@
+body {
+	margin:0;padding:0;
+	font:12px Arial, Arial, Helvetica, sans-serif;
+	color: #727272;
+}
+
+a{ text-decoration: none; }
+a:hover{ text-decoration: underline; }
+
+h1{margin:0;padding:0;}
+h2 { font-size: 1.5em; }
+body #mCont div.clear{ clear:both; margin:0;padding:0; height: 0px;display:block; float: none; }
+#mCont {
+	margin: 0px; padding: 0px;
+	background: transparent url(../img/bg_pxblue2white.gif) repeat-x;
+}
+
+#mHead {
+	padding: 1px 0 0 0;
+	width: 850px;
+	height: 136px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#logo {	margin: 30px 0 0 0; }
+
+#logo .logo { float: left; }
+
+h1.head {
+	font-size: 3em;
+	float: left;
+	margin: -6px 0 0 -18px;
+	
+}
+
+.head .my { font-weight: normal; color: #acca1d; }
+.head .own { font-weight: bold; color: #5b7aa6; }
+.head .agent { font-weight: bold; color: #acca1d; }
+
+#xtra { float: right; margin-top: -20px; }
+#xtra p{ color: #365c81; margin: 0px; text-align: right; }
+#xtra p a{ color: #365c81; font-family: Tahoma, Geneva, sans-serif;}
+#xtra p span { padding: 0 3px; }
+#xtra ul{
+	list-style-type: none;
+	margin: 30px 0 0 0; padding: 0px;
+	text-align: right;
+}
+#xtra ul li{
+  padding-left: 8px;
+}
+#xtra ul li a{ color: #727272; }
+#xtra ul li img { border: none; margin-left: 3px; }
+#xtra ul li.com{ background: url(../img/xtra_list.gif) no-repeat 0 3px; }
+#xtra ul li.mp{ background: url(../img/xtra_list.gif) no-repeat 0 -17px; }
+#xtra ul li.dis {}
+
+#nav { margin: 80px 0 0 150px; }
+#nav ul {
+	list-style-type: none;
+	margin:0;padding:0;
+	text-align: center;
+}
+#nav ul li {
+	float: left;
+	height: 29px;
+	width: 104px;
+	margin: 0 2px;
+	
+}
+#nav ul li a {
+	background: url(../img/nav_tab.png) no-repeat;
+	display: block;
+	padding-top: 7px;
+	height: 22px;
+	width: 104px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#nav ul li a:hover{
+	color: #334c6c;
+	background-position: 0 -31px;
+	text-decoration: none;
+}
+
+hr.navLine {
+	color:#558ec3;
+	background-color:#558ec3;
+	height:2px;
+	margin:0;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 109px;
+}
+
+
+#mBody { width: 850px; margin: 0 auto; }
+#mBody div { float: left; margin: 5px; display: inline; }
+
+#mFooter {
+	width: 475px;
+	margin: 0px auto;
+	padding-bottom: 50px;
+}
+#mFooter ul {
+	list-style-type: none;
+	margin: 10px 0 0 0; padding: 0px;
+	text-align: center;
+}
+#mFooter ul li {
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 6px;
+	background: url(../img/red_box.gif) no-repeat 100% 50%;
+}
+#mFooter ul li.last{ background: none;padding-right: 0px; }
+#mFooter ul li a {color: #5E5E5E;}
