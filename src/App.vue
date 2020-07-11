@@ -53,6 +53,7 @@ h1 { font-size: 1.3rem; margin:0;padding:10px 0 }
   width: auto;
   max-width:1000px;
   margin: 0 auto;
+  min-height:1000px;
 }
 
 #innerContainer {
